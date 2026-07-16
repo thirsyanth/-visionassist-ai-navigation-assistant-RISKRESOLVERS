@@ -116,17 +116,7 @@ export function LiveDemoCard() {
             </div>
           </div>
 
-          <div className="mt-6 rounded-[24px] border border-cyan-400/20 bg-cyan-400/10 p-4 text-cyan-50 shadow-[0_0_40px_rgba(34,211,238,0.08)]">
-            <div className="flex items-start gap-3">
-              <Video className="mt-0.5 h-5 w-5 text-cyan-200" aria-hidden="true" />
-              <div>
-                <p className="font-semibold">Demo Video Coming Soon</p>
-                <p className="mt-1 text-sm leading-6 text-cyan-50/80">
-                  Replace this placeholder with an MP4 upload or YouTube embed when the final demo is ready.
-                </p>
-              </div>
-            </div>
-          </div>
+   
         </div>
       </div>
     </div>
