@@ -1,7 +1,10 @@
+from pathlib import Path
 from ultralytics import YOLO
 
-# Load YOLO model only once
-model = YOLO("yolov8n.pt")
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "yolov8n.pt"
+
+model = YOLO(str(MODEL_PATH))
 
 
 def detect_objects(frame):
