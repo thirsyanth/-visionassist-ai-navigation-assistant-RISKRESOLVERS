@@ -115,7 +115,20 @@ export function LiveDemoCard() {
               ))}
             </div>
           </div>
-
+       <button
+  onClick={() => window.open("/demo", "_self")}
+  className="mt-6 w-full rounded-[24px] border border-cyan-400/20 bg-cyan-400/10 p-4 text-cyan-50 shadow-[0_0_40px_rgba(34,211,238,0.08)] hover:bg-cyan-400/20 transition"
+>
+  <div className="flex items-start gap-3">
+    <Video className="mt-0.5 h-5 w-5 text-cyan-200" />
+    <div>
+      <p className="font-semibold">Start Live Demo</p>
+      <p className="text-sm text-cyan-100">
+        Open camera and detect nearby objects
+      </p>
+    </div>
+  </div>
+</button>
    
         </div>
       </div>
