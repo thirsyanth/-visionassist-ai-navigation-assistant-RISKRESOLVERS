@@ -246,7 +246,7 @@ export default function DemoPage() {
 
           const data =
             await response.json();
-
+           console.log("Detection response:", data);
 
           console.log(data);
 
