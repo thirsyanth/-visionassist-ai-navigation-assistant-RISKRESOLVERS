@@ -235,7 +235,7 @@ export default function DemoPage() {
 
           const response =
             await fetch(
-              "https://visionassist-ai-navigation-assistant-pkbl.onrender.com",
+              "https://visionassist-ai-navigation-assistant-pkbl.onrender.com/detect",
               {
                 method: "POST",
                 body: formData
