@@ -3,9 +3,11 @@
   "private": true,
  
   "scripts": {
-    "dev": "concurrently \"npm run next\" \"python backend/app.py\"",
-    "next": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
+
 
   "dependencies": {
     "dotenv": "17.3.1",
